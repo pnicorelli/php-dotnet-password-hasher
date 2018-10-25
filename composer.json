@@ -1,0 +1,24 @@
+{
+    "name": "pnicorelli/php-dotnet-password-hasher",
+    "description": "php package for hash/validate passwords using the .NET PasswordHasher algorithm.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/pnicorelli/php-dotnet-password-hasher",
+    "authors": [
+        {
+            "name": "Paolo -Willy- Nicorelli",
+            "email": "p.nicorelli@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "DotNetPasswordHasher\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^7.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
